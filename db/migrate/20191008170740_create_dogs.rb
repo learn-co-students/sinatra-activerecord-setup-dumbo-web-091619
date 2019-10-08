@@ -8,4 +8,7 @@ class CreateDogs < ActiveRecord::Migration[5.2]
   def down
     drop_table :dogs
   end
+
+  #up and down is a long way to write just change method!
+  #same things
 end
